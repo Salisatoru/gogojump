@@ -27,20 +27,6 @@ void gotoxy(int x, int y)
 	SetConsoleCursorPosition(console, CursorPosition);
 }
 
-
-	// player's positon and down velocity
-	int playerX = 250;
-	int playerY = 151;
-	float dy = 0;
-	int height = -150;
-	int score = 0;
-int main()
-{
-	setcursor(0,0); 
-	srand( (unsigned)time(NULL)); 
-	
-//	play();
-
 void setcursor(bool visible, DWORD size) 
 {
 	if(size == 0)
